@@ -29,9 +29,9 @@
      firstChar = container.textContent.charAt(0); 
      if (e.key == firstChar) { 
 
-       container.textContent = container.textContent.substring(1);
-       container.textContent += getRandomChars(); 
+       container.textContent = container.textContent.substring(1); 
      }
+     container.textContent += getRandomChars();
    }
  });
 
