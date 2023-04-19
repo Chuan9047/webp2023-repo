@@ -138,12 +138,14 @@
                 <th>景點名稱</th>
                 <th>景點地址</th>
                 <th>景點票價</th>
+                
             </tr>
         </table>
     <div class="p">
         <div id="upDiv" class="left"></div>
         <div id="page_page" class="middle"></div>
         <div id="downDiv" class="right"></div> 
+        <button id="btn" onclick="searchTitle();">回到首頁</button>
     </div>
  </body>
 </html>
